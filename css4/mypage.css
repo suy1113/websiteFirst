@@ -1,0 +1,125 @@
+@import "./global.css";
+
+
+.profile-container{
+    padding: 2rem 1rem;
+    flex-direction: column;
+}
+
+.profile-picture{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.profile-container-add-btn{
+    background-color: rgb(109, 109, 109);
+    color: black;
+    font-size: 5rem;
+    font-weight: bold;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+
+}
+
+.profile-name{
+    margin-top: 1rem;
+}
+
+.continue-watching{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+
+}
+
+
+
+.continue-watching-cards{
+    display: flex;
+    list-style: none;
+    overflow-x: scroll;
+    margin-top: 1rem;
+    
+}
+
+.continue-watching-card{
+    background-color: blueviolet;
+    padding: 2px 2px 2px  5px;
+    border-radius: 15px;
+    margin-right: 0.5rem;
+}
+
+.card-img{
+    width: 12rem;
+    height: 6rem;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.card-name{
+    font-size: 13px;
+    font-weight: bold;
+    /* display: block; */
+    margin: 2px 0;
+}
+
+.bottom-line{
+    border: none;
+    outline: none;
+    appearance: none;
+    margin-top: 2rem;
+
+    border-bottom: solid rgb(153, 153, 153);
+}
+.wishlist-header{
+    margin-top: 1rem;
+}
+
+.wishlist-item{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    background-color: blueviolet;
+    border-radius: 15px;
+    margin: 1rem;
+    padding: 0.3rem;
+}
+
+.wishlist-item span{
+    background-color: blueviolet;
+    font-size: 5rem;
+    right: 1rem;
+    position: absolute;
+}
+
+.wishlist-img{
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.wishlist-info{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    padding: 1rem;
+}
+
+.wishlist-title{
+    font-weight: bold;
+}
+.wishlist-subtitle{
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+

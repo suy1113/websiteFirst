@@ -1,0 +1,164 @@
+@import "./global.css";
+
+.find-search-bar-form{
+    padding: 0 25px;
+}
+
+.find-search-bar-form div{
+    width: 100%;
+}
+
+.find-search-bar{
+    margin-top: 50px;
+    background-color: var(--dark--blue);
+    border-radius: 25px;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    transition: background-color 0.8s ease-in;
+
+
+
+}
+
+.find-search-bar:focus{
+    background-color: violet;
+}
+
+.find-search-bar-form span{
+    position: absolute;
+    font: 1rem;
+    bottom: 0.55rem;
+    right: 25px;
+}
+
+.bestmovie-img-container{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 3rem;
+
+}
+
+.bestmovie-img{
+    width: 24rem;
+    height: 14rem;
+    border-radius: 20px;
+    
+
+}
+
+.bestmovie-img-container span{
+    position: absolute;
+    font-size: 5rem;
+    bottom: 0.7rem;
+    left: calc(50% + 5rem);
+}
+
+.bestmovie-text-container{
+    padding: 1rem 2rem;
+}
+
+.bestmovie-text-desc{
+    font-size: 0.8rem;
+}
+
+.bestmovie-text-title{
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--blue);
+}
+
+.movie-recommendation{
+    padding: 1rem 2rem;
+}
+
+.movie-recommendation-img{
+    list-style: none;
+    overflow-x: scroll;
+    display: flex;
+}
+
+.movie-recommendation-img li{
+    margin-left: 5px;
+}
+
+.movie-recommendation-img img{
+    width: 150px;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+/* .find-bestmovie-poster{
+    padding: 0 20px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.find-bestmovie-picture{
+    width:22rem;
+    height:12rem;
+    border-radius: 25px;
+}
+
+
+
+.find-bestmovie-poster span{
+    position: absolute;
+    background-color: blueviolet;
+    font-size: 5rem;
+    bottom: 4rem;
+    border-radius: 50%;
+    left: calc(50% + 5rem);
+    
+}
+
+.best-movie-title{
+    padding-left: 25px;
+}
+
+.find-bestmovie-desc{
+    font-size: 14px;
+}
+
+
+.find-bestmovie-name{
+    color: var(--blue);
+    font-size: 42px;
+    font-weight: bold;
+    
+}
+
+.movie-recommendation{
+    margin: 25px 0;
+    padding: 0 25px;
+}
+
+.more-movie{
+    display: flex;
+    overflow: scroll;
+    margin-top: 15px;
+    list-style: none;
+    
+
+}
+
+.more-movie li{
+    margin-left: 5px;
+}
+
+.more-movie img{
+    width: 150px ;
+    border-radius: 15px;
+} */
+
+
+
